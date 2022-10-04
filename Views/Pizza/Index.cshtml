@@ -13,8 +13,8 @@
             </div>
             <div class="d-flex flex-column justify-content-center mx-4">
                 <div><h4>@pizza.Nome</h4></div>
-                <div>@pizza.Descrizione</div>
-                <div>@pizza.Prezzo</div>
+                <div>Ingredienti: @pizza.Descrizione</div>
+                <div>Prezzo: @pizza.Prezzo $</div>
                 <button>
                     <a href="@Url.Action("Details", "Pizza", new { id = count})">Dettagli</a>
                 </button>
